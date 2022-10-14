@@ -1,0 +1,18 @@
+---
+title: Beers
+icon: fa-beer
+order: 3
+---
+<p>The beer list may be subject to some last minute changes!</p>
+
+<div style="text-align: center;">
+{%- for _beer in site.beers -%}
+  <div style="display: inline-block; padding-left: 5px; padding-top: 5px; vertical-align: top;">
+    <a href="{{ _beer.link }}">
+      <img class="img-beer" alt="{{ _beer.name }}" src="assets/images/beers/{{ _beer.logo }}" style="height: 120px;">
+    </a>
+    <span style="display: block;">{{ _beer.content }}</span>
+  </div>
+{%- endfor -%}
+</div>
+

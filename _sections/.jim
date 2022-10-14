@@ -1,0 +1,16 @@
+---
+title: Top
+cover-photo: assets/images/banner.jpg
+cover-photo-alt: photo of novemberfest hall
+auto-header: none
+icon: fa-beer
+order: 1
+---
+<header>
+	<strong>
+	<h2>Mold's Novemberfest</h2>
+	<h3>10th Annual Festival</h3>
+	<h3>Friday 11th - Sunday 13th November 2022</h3>
+	</strong>
+</header>
+

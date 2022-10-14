@@ -1,0 +1,41 @@
+---
+title: Sponsors
+icon: fa-trophy
+order: 4
+---
+<p>Huge thanks to all our sponsors, if you or your business would like to be involved please get in touch!</p>
+
+
+
+
+{%- assign _sponsors = site.sponsors | where:"class","gold" -%}
+{%- for _sponsor in _sponsors -%}
+<div style="text-align: center;">
+  <a href="{{ _sponsor.link }}" class="image" style="padding-left: 5px;">
+  <img class="img-sponsor" alt="{{ _sponsor.name }}" src="assets/images/sponsors/{{ _sponsor.logo }}" style="height: {{ _sponsor.height }};">
+  <header>
+    <h3>{{ _sponsor.name }}</h3>
+  </header>
+  </a>
+</div>
+{%- endfor -%}
+
+<!--div style="text-align: center;">
+{%- assign _sponsors = site.sponsors | where:"class","silver" -%}
+{%- for _sponsor in _sponsors -%}
+  <a href="{{ _sponsor.link }}" style="display: inline-block; padding-left: 5px; padding-top: 5px;">
+    <img class="img-sponsor" alt="{{ _sponsor.name }}" src="assets/images/sponsors/{{ _sponsor.logo }}" style="height: {{ _sponsor.height }};">
+    <span style="display: block;">{{ _sponsor.name }}</span>
+  </a>
+{%- endfor -%}
+</div>
+
+<div style="text-align: center;">
+{%- assign _sponsors = site.sponsors | where:"class","bronze" -%}
+{%- for _sponsor in _sponsors -%}
+  <a href="{{ _sponsor.link }}" style="display: inline-block; padding-left: 5px; padding-top: 5px;">
+    <img class="img-sponsor" alt="{{ _sponsor.name }}" src="assets/images/sponsors/{{ _sponsor.logo }}" style="height: {{ _sponsor.height }};">
+    <span style="display: block;">{{ _sponsor.name }}</span>
+  </a>
+{%- endfor -%}
+</div-->

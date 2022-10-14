@@ -1,0 +1,10 @@
+---
+title: Sessions
+icon: fa-music
+order: 2
+---
+{%- assign _sessions = site.sessions | sort: 'order' -%}
+{%- for _session in _sessions -%}
+	{%- include session.html title=_session.title subtitle=_session.subtitle photo=_session.photo photo-alt=_session.photo-alt content=_session.content -%}
+{%- endfor -%}
+
