@@ -20,7 +20,7 @@ order: 4
 </div>
 {%- endfor -%}
 
-<!--div style="text-align: center;">
+<div style="text-align: center;">
 {%- assign _sponsors = site.sponsors | where:"class","silver" -%}
 {%- for _sponsor in _sponsors -%}
   <a href="{{ _sponsor.link }}" style="display: inline-block; padding-left: 5px; padding-top: 5px;">
@@ -38,4 +38,4 @@ order: 4
     <span style="display: block;">{{ _sponsor.name }}</span>
   </a>
 {%- endfor -%}
-</div-->
+</div>
