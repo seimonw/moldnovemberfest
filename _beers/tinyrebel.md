@@ -1,10 +1,10 @@
 ---
-name: Goody Ales
-logo: goody.jpg
+name: Tiny Rebel
+logo: tinyrebel.jpg
 height: 120px
-link: //www.goodyales.co.uk
+link: //tinyrebel.co.uk
 ---
 <ul style="list-style-type:none; margin:0; padding:0;">
-  <li>Genesis</li>
+  <li>Peloton</li>
 </ul>
 

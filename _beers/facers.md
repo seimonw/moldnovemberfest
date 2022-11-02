@@ -6,7 +6,8 @@ link: //facersbrewery.com
 ---
 <ul style="list-style-type:none; margin:0; padding:0;">
   <li>Beerjolais Nouveau</li>
-  <li>Get Me Out</li>
+  <li>Carolean Ale</li>
+  <li>Honeyed Bitter</li>
   <li>Landslide</li>
 </ul>
 
