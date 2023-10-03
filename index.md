@@ -16,5 +16,5 @@ order: 1
 	<h3>11th Annual Festival</h3>
 	<h3>Friday 10th - Sunday 12th November 2023</h3>
 	<br />
-	<!--a href="https://pretix.eu/moldnovemberfest/11th/" class="button scrolly">Buy Tickets</a-->
+	<a href="https://pretix.eu/moldnovemberfest/11th/" class="button scrolly">Buy Tickets</a>
 </strong>

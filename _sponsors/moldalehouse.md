@@ -1,7 +1,7 @@
 ---
 name: Mold Alehouse
-class: silver
+class: gold
 logo: moldalehouse.jpg
-height: 120px
+height: 180px
 link: //www.facebook.com/MoldAlehouse
 ---

@@ -1,7 +1,7 @@
 ---
 name: Celtic Financial Planning
-class: silver
+class: gold
 logo: CELTIC1-1.png
-height: 100px
+height: 180px
 link: //www.celticfp.co.uk
 ---
