@@ -1,10 +1,10 @@
 ---
-name: Tiny Rebel
-logo: tinyrebel.jpg
+name: Cwrw Iâl
+logo: cwrwial.jpg
 height: 120px
-link: //tinyrebel.co.uk
+link: //conwybrewery.co.uk/
 ---
 <ul style="list-style-type:none; margin:0; padding:0;">
-  <li>Juicy</li>
+  <li>Kia Kaha</li>
 </ul>
 
