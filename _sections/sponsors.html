@@ -36,3 +36,13 @@ order: 4
   </a>
 {%- endfor -%}
 </div>
+
+<div style="text-align: center;">
+{%- assign _sponsors = site.sponsors | where:"class","hosts" -%}
+{%- for _sponsor in _sponsors -%}
+  <a href="{{ _sponsor.link }}" style="display: inline-block; padding-left: 5px; padding-top: 5px;">
+    <img class="img-sponsor" alt="{{ _sponsor.name }}" src="assets/images/sponsors/{{ _sponsor.logo }}" style="height: {{ _sponsor.height }};">
+    <span style="display: block;">{{ _sponsor.name }}</span>
+  </a>
+{%- endfor -%}
+</div>
