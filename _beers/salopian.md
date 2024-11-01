@@ -5,7 +5,7 @@ height: 120px
 link: //salopianbrewery.co.uk/
 ---
 <ul style="list-style-type:none; margin:0; padding:0;">
-  <li>Low Hanging Fruit</li>
+  <li>See Without Being Seen</li>
   <li>Oracle</li>
 </ul>
 

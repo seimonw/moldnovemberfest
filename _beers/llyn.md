@@ -1,10 +1,10 @@
 ---
-name: Tiny Rebel
-logo: tinyrebel.jpg
+name: Cwrw Llyn
+logo: llyn.svg
 height: 120px
-link: //tinyrebel.co.uk
+link: //cwrwllyn.cymru/
 ---
 <ul style="list-style-type:none; margin:0; padding:0;">
-  <li>Cwtch</li>
+  <li>Porth Neigwl</li>
 </ul>
 
