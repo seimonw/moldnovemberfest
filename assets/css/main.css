@@ -427,4 +427,19 @@ input[type="button"]:active, input[type="submit"]:active, input[type="reset"]:ac
 /* Mobile */
 @media screen and (max-width: 736px) { /* Basic */ body, input, textarea, select { font-size: 14pt; } h2 { font-size: 1.5em; letter-spacing: 0; font-weight: 300; } .container { padding: 0 15px 0 15px; } /* List */ ul.icons a { width: 2em; font-size: 1.25em; } /* Main */ #main > section, #main article { padding: 2em 0; } #main section.cover { padding: 4em 0em; } #main section.cover header { padding: 0 1em; } /* Footer */ #footer .copyright li { display: block; line-height: 1.25em; border: 0; padding: 0; margin: 1em 0 0 0; } #footer .copyright li:first-child { margin-top: 0; } }
 
+/* Beer list fixes --------------------------------------------------------- */
+section#beers .container div:nth-of-type(1) {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2em;
+}
+
+/* Media query for tablets and smaller screens */
+@media (max-width: 768px) {
+    section#beers .container div:nth-of-type(1) {
+      grid-template-columns: repeat(2, 1fr);
+      gap: 15px;
+        padding: 0;
+    }
+}
 /*# sourceMappingURL=main.css.map */
