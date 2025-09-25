@@ -26,6 +26,9 @@ Jekyll integration by Chris Bobbe | chrisbobbe.github.io
   <!--[if lte IE 8]><link rel="stylesheet" href="/assets/css/ie8.css" /><![endif]-->
   <!--[if lte IE 9]><link rel="stylesheet" href="/assets/css/ie9.css" /><![endif]-->
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+     crossorigin=""/>
 
   <!-- Scripts -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" defer></script>
@@ -35,8 +38,12 @@ Jekyll integration by Chris Bobbe | chrisbobbe.github.io
   <script src="/assets/js/util.js" defer></script>
   <!--[if lte IE 8]><script src="/assets/js/ie/respond.min.js" defer></script><![endif]-->
   <script src="/assets/js/main.js" defer></script>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+     crossorigin=""></script>
 
-</head><body><!-- Header -->
+</head>
+<body><!-- Header -->
 <div id="header">
   <div class="top"><!-- Logo -->
 <div id="logo">
@@ -47,7 +54,7 @@ Jekyll integration by Chris Bobbe | chrisbobbe.github.io
   </a>
 </div><!-- Nav -->
 <nav id="nav">
-  <ul><li><a href="#novemberfest-2024" id="novemberfest-2024-link" class="scrolly"><span class="icon fa-info">Novemberfest - 2024</span></a></li><li><a href="#sessions" id="sessions-link" class="scrolly"><span class="icon fa-music">Sessions</span></a></li><li><a href="#beers" id="beers-link" class="scrolly"><span class="icon fa-beer">Beers</span></a></li><li><a href="#sponsors" id="sponsors-link" class="scrolly"><span class="icon fa-trophy">Sponsors</span></a></li><li><a href="#tickets" id="tickets-link" class="scrolly"><span class="icon fa-ticket-alt">Tickets</span></a></li><li><a href="#location" id="location-link" class="scrolly"><span class="icon fa-map">Location</span></a></li></ul>
+  <ul><li><a href="#novemberfest-2025" id="novemberfest-2025-link" class="scrolly"><span class="icon fa-info">Novemberfest - 2025</span></a></li><li><a href="#sponsors" id="sponsors-link" class="scrolly"><span class="icon fa-trophy">Sponsors</span></a></li><li><a href="#location" id="location-link" class="scrolly"><span class="icon fa-map">Location</span></a></li></ul>
 </nav>
 </div>
   <div class="bottom"><!-- Social Icons -->
@@ -59,19 +66,19 @@ Jekyll integration by Chris Bobbe | chrisbobbe.github.io
   <div class="container"><img src="/assets/images/banner.jpg" alt="photo of novemberfest hall" class="back"><strong>
 	<img src="assets/images/avatar.png"/>
 	<h2>Mold's Novemberfest</h2>
-	<h3>12th Annual Festival</h3>
-	<h3>Friday 8th - Saturday 9th November 2024</h3>
+	<h3>13th Annual Festival</h3>
+	<h3>Friday 14th - Saturday 15th November 2025</h3>
 	<br />
-	<a href="https://pretix.eu/moldnovemberfest/12th/" class="button scrolly">Buy Tickets</a>
+	<!--a href="https://pretix.eu/moldnovemberfest/12th/" class="button scrolly">Buy Tickets</a-->
 </strong>
 </div>
 </section>
-<!-- Sections --><section id="novemberfest-2024" class="shade-two">
+<!-- Sections --><section id="novemberfest-2025" class="shade-two">
   <div class="container"><header>
-			<h2>Novemberfest - 2024</h2></header>  <div class="row">
+			<h2>Novemberfest - 2025</h2></header>  <div class="row">
     <div class="6u 12u$(mobile)">
       <div style="text-align: left">
-        <p>Mold’s Novemberfest is a festival of Real Ale, Real Food and Real Entertainment! This year the twelfth Novemberfest will take place on the 8th and 9th November 2024.</p>
+        <p>Mold’s Novemberfest is a festival of Real Ale, Real Food and Real Entertainment! This year the thirteenth Novemberfest will take place on the 14th and 15th November 2025.</p>
         <p>The main focal point is in The Pod (formerly St Mary’s Church Hall), hosting a great selection of real ales, craft beers, real lager, local cider and great wines, accompanied by great food and live music.</p>
 	<p>This event is organised by Mold Town Council with the support of the local CAMRA (Campaign for Real Ale) branch, and a group of volunteers. Novemberfest is a not-for-profit festival, all proceeds of the festival go towards putting on other events in the town and a nominated charitable cause.</p>
 	<p>Follow us on <a href="https://facebook.com/MoldNovemberFestPage" target="_blank">Facebook</a> for up to date information</p>
@@ -85,372 +92,11 @@ Jekyll integration by Chris Bobbe | chrisbobbe.github.io
   </div>
 </div>
 </section>
-<section id="sessions" class="shade-three">
-  <div class="container"><header>
-			<h2>Sessions</h2></header><section id="friday-afternoon" class="shade-one dark">
-  <div class="container">
-    <h3>Friday Afternoon</h3>
-    <h4>12:30 - 5:00pm</h4>
-    <div class="row">
-      <div class="6u 12u$(mobile)">
-        <div class="image"><img src="/assets/images/Casks.jpg" alt="Ale casks on racking" class="back"></div>
-      </div>
-      <div class="6u 12u${mobile)">
-        <div style="text-align: left"><p>Starting the weekend is the connoisseurs quiet session. NEW for 2024 CAMRA will be hosting a Beer Tasting Experience event during this session from 2:30pm sign up for a limited space on the door.</p>
-
-</div>
-      </div>
-    </div>
-  </div>
-</section>
-<section id="friday-evening" class="shade-one dark">
-  <div class="container">
-    <h3>Friday Evening</h3>
-    <h4>6:00 - 10:30pm</h4>
-    <div class="row">
-      <div class="6u 12u$(mobile)">
-        <div class="image"><img src="/assets/images/c90s.jpg" alt="The C90s band" class="back"></div>
-      </div>
-      <div class="6u 12u${mobile)">
-        <div style="text-align: left"><h3><strong>The C90s</strong></h3>
-<p>The C90s were formed soon after lockdown, When Mark, placed an ad online looking for like minded musicians, to form a band that didn't play, sweet home Allabama or whiskey in the jar. After a few changes they settled on its current lineup of Amanda Holmes, vocals, Simon Alexander, guitar, Mark Gunning Bass guitar, Mark 'Bonus' Jones, Drums and Tony Warren, Keyboard. The band tries to choose interesting songs whilst picking songs that people remember, but not the songs you'd initially think. From Alanis Morrisette, to Basement Jaxx, Jamiroquai to Pearl jam, there is something for everyone, from all the popular musical movements of the last great decade of music.</p>
-<p><a href="https://www.facebook.com/itsthec90s" target="_blank">Facebook</a></p>
-</div>
-      </div>
-    </div>
-  </div>
-</section>
-<section id="saturday-afternoon" class="shade-one dark">
-  <div class="container">
-    <h3>Saturday Afternoon</h3>
-    <h4>12:30 - 5:00pm</h4>
-    <div class="row">
-      <div class="6u 12u$(mobile)">
-        <div class="image"><img src="/assets/images/cancan.png" alt="CanCan Quartet" class="back"></div>
-      </div>
-      <div class="6u 12u${mobile)">
-        <div style="text-align: left"><h3><strong>CanCan</strong></h3>
-<p>CanCan are a Quartet featuring Vocals, Accordion, Guitar and Double Bass. Specialising cafe style music from France and Europe and Latin America. Swing to Bossa Nova and beyond.</p>
-<a href="https://www.facebook.com/handsungmusic" target="_blank">Facebook</a></p>
-</div>
-      </div>
-    </div>
-  </div>
-</section>
-<section id="saturday-evening" class="shade-one dark">
-  <div class="container">
-    <h3>Saturday Evening</h3>
-    <h4>6:00 - 10:30pm</h4>
-    <div class="row">
-      <div class="6u 12u$(mobile)">
-        <div class="image"><img src="/assets/images/factoryhens.jpg" alt="Factory Hens band" class="back"></div>
-      </div>
-      <div class="6u 12u${mobile)">
-        <div style="text-align: left"><h3><strong>The Factory Hens</strong></h3>
-<p>Factory hens are a 4 piece function band from Wrexham, playing a variety of rocked up covers from the 60s to present day; bringing the party to you!</p>
-<p><a href="https://www.facebook.com/factoryhens" target="_blank">Facebook</a></p>
-</div>
-      </div>
-    </div>
-  </div>
-</section>
-</div>
-</section>
-<section id="beers" class="shade-four">
-  <div class="container"><header>
-			<h2>Beers</h2></header><!--p>The beer list may be subject to some last minute changes!</p-->
-
-<div style="text-align: center;"><div style="display: inline-block; padding-left: 5px; padding-top: 5px; vertical-align: top;">
-    <a href="//azvexbrewing.com/">
-      <img class="img-beer" alt="Azvex Brewing Company" src="assets/images/beers/azvex.png" style="height: 120px;">
-    </a>
-    <span style="display: block;"><ul style="list-style-type:none; margin:0; padding:0;">
-  <li>Orbiting Treasure</li>
-</ul>
-
-</span>
-  </div><div style="display: inline-block; padding-left: 5px; padding-top: 5px; vertical-align: top;">
-    <a href="//balancebrewing.co/">
-      <img class="img-beer" alt="Balance Brewing and Blending" src="assets/images/beers/balance.jpg" style="height: 120px;">
-    </a>
-    <span style="display: block;"><ul style="list-style-type:none; margin:0; padding:0;">
-  <li>Hugs</li>
-</ul>
-
-</span>
-  </div><div style="display: inline-block; padding-left: 5px; padding-top: 5px; vertical-align: top;">
-    <a href="//bighandbrewing.co.uk/">
-      <img class="img-beer" alt="Big Hand Brewery" src="assets/images/beers/bighand.jpg" style="height: 120px;">
-    </a>
-    <span style="display: block;"><ul style="list-style-type:none; margin:0; padding:0;">
-  <li>Appaloosa</li>
-  <li>Super Tidy</li>
-</ul>
-
-</span>
-  </div><div style="display: inline-block; padding-left: 5px; padding-top: 5px; vertical-align: top;">
-    <a href="//blackedgebrewery.co.uk/">
-      <img class="img-beer" alt="Blackedge Brewery" src="assets/images/beers/blackedge.jpg" style="height: 120px;">
-    </a>
-    <span style="display: block;"><ul style="list-style-type:none; margin:0; padding:0;">
-  <li>Calypso</li>
-  <li>Oatmeal Chocolate Stout</li>
-  <li>Shake</li>
-</ul>
-
-</span>
-  </div><div style="display: inline-block; padding-left: 5px; padding-top: 5px; vertical-align: top;">
-    <a href="//bluestonebrewing.co.uk/">
-      <img class="img-beer" alt="Bluestone Brewing" src="assets/images/beers/bluestone.png" style="height: 120px;">
-    </a>
-    <span style="display: block;"><ul style="list-style-type:none; margin:0; padding:0;">
-  <li>Motueka Single Hop</li>
-</ul>
-
-</span>
-  </div><div style="display: inline-block; padding-left: 5px; padding-top: 5px; vertical-align: top;">
-    <a href="//sabrain.com/">
-      <img class="img-beer" alt="Brains Brewery" src="assets/images/beers/brains.png" style="height: 120px;">
-    </a>
-    <span style="display: block;"><ul style="list-style-type:none; margin:0; padding:0;">
-  <li>Bread of Heaven</li>
-</ul>
-
-</span>
-  </div><div style="display: inline-block; padding-left: 5px; padding-top: 5px; vertical-align: top;">
-    <a href="//cloudwaterbrew.co/">
-      <img class="img-beer" alt="Cloudwater Brew Co" src="assets/images/beers/cloudwater.png" style="height: 120px;">
-    </a>
-    <span style="display: block;"><ul style="list-style-type:none; margin:0; padding:0;">
-  <li>Happy</li>
-</ul>
-
-</span>
-  </div><div style="display: inline-block; padding-left: 5px; padding-top: 5px; vertical-align: top;">
-    <a href="//conwybrewery.co.uk/">
-      <img class="img-beer" alt="Conwy Brewery" src="assets/images/beers/conwy.png" style="height: 120px;">
-    </a>
-    <span style="display: block;"><ul style="list-style-type:none; margin:0; padding:0;">
-  <li>Clogwyn Gold</li>
-  <li>Rampart</li>
-</ul>
-
-</span>
-  </div><div style="display: inline-block; padding-left: 5px; padding-top: 5px; vertical-align: top;">
-    <a href="//facersbrewery.com">
-      <img class="img-beer" alt="Facer's Brewery" src="assets/images/beers/facers.jpg" style="height: 120px;">
-    </a>
-    <span style="display: block;"><ul style="list-style-type:none; margin:0; padding:0;">
-  <li>Plum Porter</li>
-</ul>
-
-</span>
-  </div><div style="display: inline-block; padding-left: 5px; padding-top: 5px; vertical-align: top;">
-    <a href="//fiercebeer.com">
-      <img class="img-beer" alt="Fierce Beer / Pilot Collab" src="assets/images/beers/fierce.png" style="height: 120px;">
-    </a>
-    <span style="display: block;"><ul style="list-style-type:none; margin:0; padding:0;">
-  <li>Orange Heff</li>
-</ul>
-
-</span>
-  </div><div style="display: inline-block; padding-left: 5px; padding-top: 5px; vertical-align: top;">
-    <a href="//www.geipel.co.uk/">
-      <img class="img-beer" alt="Geipel Brewing Company" src="assets/images/beers/geipel.png" style="height: 120px;">
-    </a>
-    <span style="display: block;"><ul style="list-style-type:none; margin:0; padding:0;">
-  <li>Pilsner</li>
-</ul>
-
-</span>
-  </div><div style="display: inline-block; padding-left: 5px; padding-top: 5px; vertical-align: top;">
-    <a href="//welshbeer.com/">
-      <img class="img-beer" alt="Green River Brewery" src="assets/images/beers/greenriver.jpg" style="height: 120px;">
-    </a>
-    <span style="display: block;"><ul style="list-style-type:none; margin:0; padding:0;">
-  <li>Current</li>
-</ul>
-
-</span>
-  </div><div style="display: inline-block; padding-left: 5px; padding-top: 5px; vertical-align: top;">
-    <a href="//greytreesbrewery.com/">
-      <img class="img-beer" alt="Grey Trees Brewery" src="assets/images/beers/greytrees.gif" style="height: 120px;">
-    </a>
-    <span style="display: block;"><ul style="list-style-type:none; margin:0; padding:0;">
-  <li>Afghan Pale</li>
-</ul>
-
-</span>
-  </div><div style="display: inline-block; padding-left: 5px; padding-top: 5px; vertical-align: top;">
-    <a href="//www.welshbeer.com">
-      <img class="img-beer" alt="Hafod Brewing Company" src="assets/images/beers/hafod.jpg" style="height: 120px;">
-    </a>
-    <span style="display: block;"><ul style="list-style-type:none; margin:0; padding:0;">
-  <li>Landmark</li>
-  <li>My Name is Nelson</li>
-  <li>Solo</li>
-  <li>Vanilla Porter</li>
-  <li>Wonky Donkey</li>
-</ul>
-
-</span>
-  </div><div style="display: inline-block; padding-left: 5px; padding-top: 5px; vertical-align: top;">
-    <a href="//cwrwllyn.cymru/">
-      <img class="img-beer" alt="Cwrw Llyn" src="assets/images/beers/llyn.svg" style="height: 120px;">
-    </a>
-    <span style="display: block;"><ul style="list-style-type:none; margin:0; padding:0;">
-  <li>Porth Neigwl</li>
-</ul>
-
-</span>
-  </div><div style="display: inline-block; padding-left: 5px; padding-top: 5px; vertical-align: top;">
-    <a href="//www.magicdragonbrewing.com">
-      <img class="img-beer" alt="Magic Dragon Brewing" src="assets/images/beers/magicdragon.jpeg" style="height: 120px;">
-    </a>
-    <span style="display: block;"><ul style="list-style-type:none; margin:0; padding:0;">
-  <li>Burning Dragon</li>
-  <li>Nectaron</li>
-</ul>
-
-</span>
-  </div><div style="display: inline-block; padding-left: 5px; padding-top: 5px; vertical-align: top;">
-    <a href="//www.facebook.com/cwrwnant/">
-      <img class="img-beer" alt="Cwrw Nant" src="assets/images/beers/nant.jpg" style="height: 120px;">
-    </a>
-    <span style="display: block;"><ul style="list-style-type:none; margin:0; padding:0;">
-  <li>Aur y Felin</li>
-</ul>
-
-</span>
-  </div><div style="display: inline-block; padding-left: 5px; padding-top: 5px; vertical-align: top;">
-    <a href="//www.pollysbrew.co/">
-      <img class="img-beer" alt="Polly's Brewing Company" src="assets/images/beers/pollys.png" style="height: 120px;">
-    </a>
-    <span style="display: block;"><ul style="list-style-type:none; margin:0; padding:0;">
-  <li>Clean Green</li>
-</ul>
-
-</span>
-  </div><div style="display: inline-block; padding-left: 5px; padding-top: 5px; vertical-align: top;">
-    <a href="//www.facebook.com/reactionbrewery">
-      <img class="img-beer" alt="Reaction Brewing" src="assets/images/beers/reaction.jpg" style="height: 120px;">
-    </a>
-    <span style="display: block;"><ul style="list-style-type:none; margin:0; padding:0;">
-  <li>Back in the Saddle</li>
-</ul>
-
-</span>
-  </div><div style="display: inline-block; padding-left: 5px; padding-top: 5px; vertical-align: top;">
-    <a href="//salopianbrewery.co.uk/">
-      <img class="img-beer" alt="Salopian Brewery" src="assets/images/beers/salopian.jpg" style="height: 120px;">
-    </a>
-    <span style="display: block;"><ul style="list-style-type:none; margin:0; padding:0;">
-  <li>See Without Being Seen</li>
-  <li>Oracle</li>
-</ul>
-
-</span>
-  </div><div style="display: inline-block; padding-left: 5px; padding-top: 5px; vertical-align: top;">
-    <a href="//www.facebook.com/Penyboncyn/">
-      <img class="img-beer" alt="Bragdy Tanat" src="assets/images/beers/tanat.jpg" style="height: 120px;">
-    </a>
-    <span style="display: block;"><ul style="list-style-type:none; margin:0; padding:0;">
-  <li>Rev Kit Carter</li>
-  <li>Sgwarnog</li>
-</ul>
-
-</span>
-  </div><div style="display: inline-block; padding-left: 5px; padding-top: 5px; vertical-align: top;">
-    <a href="//tinyrebel.co.uk">
-      <img class="img-beer" alt="Tiny Rebel" src="assets/images/beers/tinyrebel.jpg" style="height: 120px;">
-    </a>
-    <span style="display: block;"><ul style="list-style-type:none; margin:0; padding:0;">
-  <li>Cwtch</li>
-</ul>
-
-</span>
-  </div><div style="display: inline-block; padding-left: 5px; padding-top: 5px; vertical-align: top;">
-    <a href="//www.wildhorsebrewing.co.uk/">
-      <img class="img-beer" alt="Wild Horse Brewing" src="assets/images/beers/Wild-Horse-Brewery.jpg" style="height: 120px;">
-    </a>
-    <span style="display: block;"><ul style="list-style-type:none; margin:0; padding:0;">
-  <li>Emrallt</li>
-</ul>
-
-</span>
-  </div></div>
-<h2>Ciders</h2>
-<div style="text-align: center;"><div style="display: inline-block; padding-left: 5px; padding-top: 5px; vertical-align: top;">
-    <a href="//ascensioncider.co.uk">
-      <img class="img-beer" alt="Ascension" src="assets/images/beers/ascension.png" style="height: 120px;">
-    </a>
-    <span style="display: block;"><ul style="list-style-type:none; margin:0; padding:0;">
-  <li>Chasing Dusk</li>
-  <li>Pilot</li>
-</ul>
-
-</span>
-  </div><div style="display: inline-block; padding-left: 5px; padding-top: 5px; vertical-align: top;">
-    <a href="//broadoakcidercompanyltd.co.uk">
-      <img class="img-beer" alt="Broadoak Cider" src="assets/images/beers/broadoak.gif" style="height: 120px;">
-    </a>
-    <span style="display: block;"><ul style="list-style-type:none; margin:0; padding:0;">
-  <li>Sloe Gin</li>
-</ul>
-
-</span>
-  </div><div style="display: inline-block; padding-left: 5px; padding-top: 5px; vertical-align: top;">
-    <a href="//www.celticmarches.com/">
-      <img class="img-beer" alt="Celtic Marches" src="assets/images/beers/celticmarches.png" style="height: 120px;">
-    </a>
-    <span style="display: block;"><ul style="list-style-type:none; margin:0; padding:0;">
-  <li>Cuckoo Penny</li>
-</ul>
-
-</span>
-  </div><div style="display: inline-block; padding-left: 5px; padding-top: 5px; vertical-align: top;">
-    <a href="//www.facebook.com/people/Cockeyed-Cider-co/100063988455324/">
-      <img class="img-beer" alt="Cockeyed Cider Co" src="assets/images/beers/cockeyed.jpg" style="height: 120px;">
-    </a>
-    <span style="display: block;"><ul style="list-style-type:none; margin:0; padding:0;">
-  <li>Hedge Rose</li>
-</ul>
-
-</span>
-  </div><div style="display: inline-block; padding-left: 5px; padding-top: 5px; vertical-align: top;">
-    <a href="//deeciders.com">
-      <img class="img-beer" alt="Dee Ciders" src="assets/images/beers/deeciders.jpg" style="height: 120px;">
-    </a>
-    <span style="display: block;"><ul style="list-style-type:none; margin:0; padding:0;">
-  <li>Medium</li>
-</ul>
-
-</span>
-  </div><div style="display: inline-block; padding-left: 5px; padding-top: 5px; vertical-align: top;">
-    <a href="//newtoncourtcider.com">
-      <img class="img-beer" alt="Newton Court" src="assets/images/beers/newtoncourt.jpg" style="height: 120px;">
-    </a>
-    <span style="display: block;"><ul style="list-style-type:none; margin:0; padding:0;">
-  <li>Panting Partridge</li>
-</ul>
-
-</span>
-  </div><div style="display: inline-block; padding-left: 5px; padding-top: 5px; vertical-align: top;">
-    <a href="//rosiescider.co.uk/">
-      <img class="img-beer" alt="Rosie's Cider" src="assets/images/beers/rosies.gif" style="height: 120px;">
-    </a>
-    <span style="display: block;"><ul style="list-style-type:none; margin:0; padding:0;">
-  <li>Continental</li>
-</ul>
-
-</span>
-  </div></div>
-
-</div>
-</section>
 <section id="sponsors" class="shade-three">
   <div class="container"><header>
-			<h2>Sponsors</h2></header><p>Huge thanks to all our sponsors, if you or your business would like to be involved please get in touch!</p><div style="text-align: center;">
+			<h2>Sponsors</h2></header><p>Huge thanks to all our sponsors, if you or your business would like to be involved please get in touch!</p>
+
+<!--<div style="text-align: center;">
   <a href="//www.celticfp.co.uk" class="image" style="padding-left: 5px;">
   <img class="img-sponsor" alt="Celtic Financial Planning" src="assets/images/sponsors/CELTIC1-1.png" style="height: 180px;">
   <header>
@@ -564,29 +210,25 @@ Jekyll integration by Chris Bobbe | chrisbobbe.github.io
     <img class="img-sponsor" alt="Mold Town Council" src="assets/images/sponsors/mtc-1.png" style="height: 120px;">
     <span style="display: block;">Mold Town Council</span>
   </a></div>
+-->
 </div>
 </section>
-<section id="tickets" class="shade-two">
+<section id="location" class="shade-four">
   <div class="container"><header>
-			<h2>Tickets</h2></header>  <div class="row">
-    <div class="6u 12u$(mobile)">
-      <div style="text-align: left">
-        <p>Tickets are available online or from the following outlets from Friday 11th October (cash only):
-	<ul><li>Bargain Booze, High Street, Mold</li><li>Mold Ale House, Earl Road</li></ul>
-	</p>
-      </div>
-    </div>
-    <div class="6u 12u$(mobile)">
-      <a href="https://pretix.eu/moldnovemberfest/12th/" class="button scrolly">Buy Tickets Online</a>
-    </div>
-  </div>
-</div>
-</section>
-<section id="location" class="shade-three">
-  <div class="container"><header>
-			<h2>Location</h2></header><div class="row">
-<iframe loading="lazy" src="https://www.google.com/maps/d/embed?mid=1D3tAr_cbWJrovFZBuWRi8supIOc" width="100%" height="350" style="pointer-events: none;"></iframe>
-</div>
+			<h2>Location</h2></header><div id="map" class="map leaflet-container" style="height: 300px; position:relative;"></div>
+<script>
+    var map = L.map('map');
+    L.tileLayer('http://{s}.tile.osm.org/{z}/{x}/{y}.png', {
+        attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
+    }).addTo(map);
+
+    var target = L.latLng('53.16864', '-3.14106');
+    map.setView(target, 14);
+
+    // Place a marker on the same location.
+    L.marker(target).addTo(map);
+</script>
+
 </div>
 </section>
 </div><!-- Footer -->
