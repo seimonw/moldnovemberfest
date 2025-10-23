@@ -1,7 +1,7 @@
 ---
-name: Polly's Brewing Company
+name: Polly's Social
 class: silver
-logo: pollys.png
+logo: pollysocial.png
 height: 120px
-link: //www.pollysbrew.co
+link: //www.pollys.co/pollyssocial
 ---
