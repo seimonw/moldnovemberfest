@@ -1,10 +1,10 @@
 ---
-name: Conwy Brewery
-logo: conwy.png
+name: Coming Soon
+logo: soon.png
 height: 120px
-link: //conwybrewery.co.uk/
+link: //#
 ---
 <ul style="list-style-type:none; margin:0; padding:0;">
-  <li>Rampart</li>
+  <li>tbc</li>
 </ul>
 
