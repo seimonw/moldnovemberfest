@@ -13,8 +13,8 @@ order: 1
 <strong>
 	<img src="assets/images/avatar.png"/>
 	<h2>Mold's Novemberfest</h2>
-	<h3>13th Annual Festival</h3>
-	<h3>Friday 14th - Saturday 15th November 2025</h3>
+	<h3>14th Annual Festival</h3>
+	<h3>Friday 13th - Saturday 14th November 2026</h3>
 	<br />
 	<!--a href="https://pretix.eu/moldnovemberfest/12th/" class="button scrolly">Buy Tickets</a-->
 </strong>
