@@ -5,6 +5,7 @@ order: 3
 ---
 <!--p>The beer list may be subject to some last minute changes!</p-->
 
+{%- if site.beers.size > 0 %}
 <div style="text-align: center;">
 {%- for _beer in site.beers -%}
   <div style="display: inline-block; padding-left: 5px; padding-top: 5px; vertical-align: top;">
@@ -15,7 +16,11 @@ order: 3
   </div>
 {%- endfor -%}
 </div>
+{%- else %}
+<p>Beer list coming soon!</p>
+{%- endif %}
 <h2>Ciders</h2>
+{%- if site.ciders.size > 0 %}
 <div style="text-align: center;">
 {%- for _cider in site.ciders -%}
   <div style="display: inline-block; padding-left: 5px; padding-top: 5px; vertical-align: top;">
@@ -26,4 +31,7 @@ order: 3
   </div>
 {%- endfor -%}
 </div>
+{%- else %}
+<p>Cider list coming soon!</p>
+{%- endif %}
 
