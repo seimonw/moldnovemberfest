@@ -1,7 +1,7 @@
 ---
 name: Outwrite PR
 class: silver
-logo: outwritepr.jpg
+logo: outwrite.png
 height: 120px
 link: //outwrite.co.uk
 ---
