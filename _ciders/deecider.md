@@ -5,6 +5,5 @@ height: 120px
 link: //deeciders.com
 ---
 <ul style="list-style-type:none; margin:0; padding:0;">
-  <li>Dry</li>
+  <li>Richard’s Dry</li>
 </ul>
-
