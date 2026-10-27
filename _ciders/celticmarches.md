@@ -5,6 +5,5 @@ height: 120px
 link: //www.celticmarches.com/
 ---
 <ul style="list-style-type:none; margin:0; padding:0;">
-  <li>Wild Berries</li>
+  <li>Whisky & Orange</li>
 </ul>
-

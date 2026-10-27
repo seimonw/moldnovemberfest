@@ -5,6 +5,5 @@ height: 120px
 link: //www.wildhorsebrewing.co.uk/
 ---
 <ul style="list-style-type:none; margin:0; padding:0;">
-  <li>Mining for Nelson</li>
+  <li>Elements</li>
 </ul>
-
